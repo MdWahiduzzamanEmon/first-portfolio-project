@@ -3,7 +3,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .color{
-    color: #FFA500;
+    color: purple;
 }
 .flexible-content{
     display: flex;
@@ -22,22 +22,26 @@ body{
     width: 90%;
     display: block;
 }
-.first-section h1{
+ h1{
     font-size: 50px;
+    font-weight: bold;
+}
+h2{
+    font-size: 40px;
     font-weight: bold;
 }
 .first-section h4{
     font-size: 1.17em;
     font-weight: bold;
 }
-.first-section p{
+ p{
         color: dimgray;
         font-size: 18px;
         
 }
 .button{
     text-decoration: none;
-    background-image: linear-gradient(to left,#FA6D59,#F88667);
+    background-image: linear-gradient(to right,#b046ee,#af0877,#590872);
     padding: 10px 30px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -52,4 +56,34 @@ body{
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+}
+
+.experience-item{
+    width: 50%;
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 20px 0px 30px 10px #C6C6C6;
+   
+}
+.gradient-border-1{
+    border-left: 6px solid;
+    border-image: linear-gradient( #820386,#e6346f);
+    border-image-slice: 1;
+}
+.gradient-border-2{
+    border-left: 6px solid;
+    border-image: linear-gradient( #a8e713,#c6f14e,#00ff55);
+    border-image-slice: 1;
+}
+.bg-img-3{
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+footer p{
+    text-align: center;
+}
+section{
+    margin-bottom: 200px;
 }
